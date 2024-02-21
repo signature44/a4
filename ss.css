@@ -24,7 +24,7 @@ form{
     flex-direction: column;
     width: 350px;
     padding: 10px 10px 10px 10px;
-    border: 2px thick red;
+    border: 2px solid red;
 }
 
 .name{
