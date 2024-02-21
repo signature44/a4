@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="ss.css">
+    </head>
+    <body>
+        <header>
+            <nav class="sign">
+                <a href="#">logo</a>
+                <ul>
+                    <li>
+                        <a href="signup.html">Sign Up</a>
+                    </li>
+                    <li>
+                        <a href="signin.html">Sign In</a>
+                    </li>
+                </ul>
+
+            </nav>
+        </header>
+        <main class="head">
+            <form>
+                <div class="name">
+                        <div>    
+                            <label for="fn"> First-name</label>
+                            <input id="fn" type="text" name="First-name" aria-label="First-name" class="f"/>
+                        </div>
+    
+                        <div>
+                            <label for="ln"> Last-name</label>
+                            <input id="ln" type="text" name="Last-name" arial-label="Last-name" class="l"/>
+                        </div>
+                </div>    
+
+                <div class="gn">
+                    <div>
+                        <label for="gd"> Gender</label>
+                        <select class="g">
+                              <option id="gd" value="Male"> Male</option>
+                              <option id="gd" value="Female"> Female</option>
+                              <option id="gd" value="Other"> Other</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="n"> Nationality</label>
+                        <select class="n">
+                              <option id="n" value="Ghana"> Ghana</option>
+                              <option id="n" value="Togo"> Togo</option>
+                              <option id="n" value="Nigeria"> Nigeria</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        <label for="em"> Email</label>
+                        <input id="em" type="email" placeholder="example@.com" name="email" arial-label="email" class="e"/>
+                    </div>
+
+                    <div>
+                        <label for="pw"> Password</label>
+                        <input id="pw" type="password" name="password" arial-label="password" class="pw">
+                    </div>
+
+                    <div>
+                        <label for="pn"> Phone Number</label>
+                        <input id="pn" type="tel" placeholder="0571820957" name="Phone-Number" arial-label="Phone-Number" class="pn" pattern="[0-9]{10}" required>
+                    </div>
+                </div>   
+                
+                <div>
+                    <div>
+                        <div id="pp">
+                            <input class="cb" type="checkbox" name="Terms-and-conditions-privacy-policy" value="Terms-and-conditions-privacy-policy">
+                            <span> I agree to the <a href="#">terms and conditions</a> and<a href="#"> privacy policy </a></span>
+                        </div>
+                        <input type="button" value="Create Account" class="ca">
+                    </div>
+                </div>
+            </form> 
+        </main>
+    </body>
+</html>

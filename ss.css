@@ -1,0 +1,83 @@
+.sign{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.sign ul{
+width: 150px;
+display: flex;
+justify-content: space-between;
+list-style: none;
+}
+
+a {
+text-decoration: none;
+}
+
+form{
+    display: flex;
+    margin-left: auto;
+    justify-content: end;
+    margin-top: 60px;
+    margin-right: auto; 
+    flex-direction: column;
+    width: 350px;
+    padding: 10px 10px 10px 10px;
+    border: 2px thick red;
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+.gn{
+    display: flex;
+    justify-content: space-between;
+}
+.head{
+    width: 800px;
+    display: block;
+}
+
+.f{
+    display: block;
+    width: 120px;
+}
+.l{
+    display:block;
+    width: 120px;
+}
+
+.g{
+    display: block;
+    width: 120px;
+}
+.e{
+    display:block;
+    width: 264px;
+}
+.n{
+    display: block;
+    width: 120px;
+}
+.pn{
+    display: block;
+    width: 264px;
+}
+.pw{
+    display: block;
+    width: 264px;
+}
+.ca{
+    width: 264px;
+
+}
+.cb{
+    width: 267px;
+    display: inline;
+}
+#pp{
+    display: flex;
+    height: 20px;
+}
